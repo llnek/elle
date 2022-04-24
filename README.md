@@ -13,7 +13,9 @@ A micro basic interpreter.
 
 ## Usage
 
-elle &lt;input-file&gt;
+elle [-r] [&lt;input-file&gt;]</br>
+options: -r starts a repl</br>
+input-file: Scheme file</br>
 
 ## Contacting me / contributions
 
