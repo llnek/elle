@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="elle" Version="11000" InternalType="">
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="dsl">
+      <File Name="src/dsl/dsl.cpp"/>
+      <File Name="src/dsl/dsl.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="aeon">
+      <File Name="src/aeon/aeon.h"/>
+      <File Name="src/aeon/Pool.cpp"/>
+      <File Name="src/aeon/array.h"/>
+      <File Name="src/aeon/macros.h"/>
+      <File Name="src/aeon/aeon.cpp"/>
+      <File Name="src/aeon/DList.h"/>
+      <File Name="src/aeon/test.cpp"/>
+      <File Name="src/aeon/Pool.h"/>
+      <File Name="src/aeon/smptr.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="elle">
+      <File Name="src/elle/main.cpp"/>
+      <File Name="src/elle/parser.cpp"/>
+      <File Name="src/elle/schemer.cpp"/>
+      <File Name="src/elle/reader.cpp"/>
+      <File Name="src/elle/elle.h"/>
+      <File Name="src/elle/builtins.h"/>
+      <File Name="src/elle/parser.h"/>
+      <File Name="src/elle/types.h"/>
+      <File Name="src/elle/builtins.cpp"/>
+      <File Name="src/elle/types.cpp"/>
+      <File Name="src/elle/reader.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="-std=c11;-std=c++20;-Wall" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+        <IncludePath Value="$(ProjectPath)/src"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="CLANG" DebuggerType="" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="$(ConfigurationName)" Command="$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

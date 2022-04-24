@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
+/node_modules
+/targets
+/target
+/build
+/out
+/lib
+/classes
+/checkouts
+/public
+/Debug
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+pom.xml.asc
+pom.xml
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*.class
+*.asc
+*.jar
+*.zip
+*.gz
 
-# Fortran module files
-*.mod
-*.smod
+/.lein-*
+/.nrepl*
+.hgignore
+.hg/
+.codelite/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+._.DS_Store
+.DS_Store
+.svn
+.sass-cache
 
-# Executables
-*.exe
-*.out
-*.app
+
+
