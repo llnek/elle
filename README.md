@@ -6,7 +6,7 @@ A micro basic interpreter.
 
 
 ## Installation
-
+Requires my other repository [aeon]: https://github.com/llnek/aeon
 
 ## Documentation
 
