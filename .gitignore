@@ -1,34 +1,35 @@
-/node_modules
-/targets
-/target
-/build
-/out
-/lib
-/classes
-/checkouts
-/public
-/Debug
-
-
-pom.xml.asc
-pom.xml
-
-*.class
-*.asc
-*.jar
-*.zip
-*.gz
-
-/.lein-*
-/.nrepl*
-.hgignore
-.hg/
-.codelite/
-
-._.DS_Store
 .DS_Store
-.svn
-.sass-cache
 
+.codelite/
+.vscode/
+Debug/
+Release/
 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
